@@ -4,7 +4,10 @@ import com.mb.scalamockexample.utils._
 
 import org.scalatest._
 
-class MockTest extends WordSpecLike with Matchers with BaseTest {
+class MockTest extends WordSpecLike with Matchers {
+
+  val server: ServerTrait = new ExampleServer("myServer")
+  val client: Client      = new Client("myClient", server)
 
   "example mocked-server" must {
 

@@ -4,14 +4,17 @@ import com.mb.scalamockexample.utils._
 
 import org.scalatest._
 
-class ExampleTest extends WordSpecLike with Matchers with BaseTest {
+class ExampleTest extends WordSpecLike with Matchers {
 
-  "example server" must {
+  val server: ServerTrait = new ExampleServer("myServer")
+  val client: Client      = new Client("myClient", server)
+
+  "example mocked-server" must {
 
     "reply with with modified message" in {
 
-      val result = client.getRequestFromServer( "Hello World" )
-      result should be ( Response("Hello World - Request from 'myClient'", "myServer") )
+      val result = client.getRequestFromServer( "Hello mocked World" )
+      result should be ( Response("Hello mocked World - Request from 'myClient'", "myServer") )
 
     }
 
