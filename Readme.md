@@ -9,7 +9,7 @@ Author: Maximilian Bundscherer (https://bundscherer-online.de)
 ## Overview / Features
 - Simple example server and client included (see ``src/main/scala/com/mb/scalamockexample/*``)
 - Server and client communicate over simple messages
-- Include **normal** and **mocked server** test
+- **Normal** and **mocked server** test included
     - normal-test - see ``src/test/scala/com/mb/scalamockexample/ExampleTest``
     - test with mocked server - see ``src/test/scala/com/mb/scalamockexample/ExampleMockedTest``
     
