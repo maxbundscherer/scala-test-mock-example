@@ -11,7 +11,7 @@ Author: Maximilian Bundscherer (https://bundscherer-online.de)
 - Server and client communicate over simple messages
 - **Normal** and **mocked server** test included
     - normal-test - see ``src/test/scala/com/mb/scalamockexample/ExampleTest``
-    - test with mocked server - see ``src/test/scala/com/mb/scalamockexample/ExampleMockedTest``
+    - test with mocked server - see ``src/test/scala/com/mb/scalamockexample/MockTest``
 - Auto-generate **coverage report(s)** (sbt-scoverage)
     
 ## Used technologies

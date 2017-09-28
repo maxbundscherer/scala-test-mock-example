@@ -1,6 +1,6 @@
 package com.mb.scalamockexample
 
-import com.mb.scalamockexample.utils.Response
+import com.mb.scalamockexample.utils._
 
 import org.scalatest._
 

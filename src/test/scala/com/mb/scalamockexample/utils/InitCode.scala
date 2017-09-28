@@ -1,13 +1,13 @@
 package com.mb.scalamockexample.utils
 
-import com.mb.scalamockexample.{Server, Client}
+import com.mb.scalamockexample._
 
 /**
   * init code - run once
   */
 object InitCode {
 
-  val server = new Server("myServer")
-  val client = new Client("myClient", server)
+  val exampleServer = new ExampleServer("myServer")
+  val client        = new Client("myClient", exampleServer)
 
 }

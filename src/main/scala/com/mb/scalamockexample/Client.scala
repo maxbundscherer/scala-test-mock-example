@@ -1,13 +1,13 @@
 package com.mb.scalamockexample
 
-import com.mb.scalamockexample.utils.{Request, Response}
+import com.mb.scalamockexample.utils._
 
 /**
   * client
  *
-  * @param server Server
+  * @param server ServerTrait
   */
-class Client(val nickname: String, val server: Server) {
+class Client(val nickname: String, val server: ServerTrait) {
 
   /**
     * get response from server

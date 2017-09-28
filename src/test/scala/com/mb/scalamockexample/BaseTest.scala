@@ -1,12 +1,12 @@
 package com.mb.scalamockexample
 
-import com.mb.scalamockexample.utils.InitCode
+import com.mb.scalamockexample.utils._
 
 trait BaseTest {
 
   InitCode
 
-  val server: Server = InitCode.server
-  val client: Client = InitCode.client
+  val server: ServerTrait = InitCode.exampleServer
+  val client: Client      = InitCode.client
 
 }

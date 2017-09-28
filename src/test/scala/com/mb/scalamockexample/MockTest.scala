@@ -1,10 +1,10 @@
 package com.mb.scalamockexample
 
-import com.mb.scalamockexample.utils.Response
+import com.mb.scalamockexample.utils._
 
 import org.scalatest._
 
-class ExampleMockedTest extends WordSpecLike with Matchers with BaseTest {
+class MockTest extends WordSpecLike with Matchers with BaseTest {
 
   "example mocked-server" must {
 
