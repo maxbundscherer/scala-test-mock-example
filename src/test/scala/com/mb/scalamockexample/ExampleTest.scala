@@ -9,7 +9,7 @@ class ExampleTest extends WordSpecLike with Matchers {
   val server: ServerTrait = new ExampleServer("myServer")
   val client: Client      = new Client("myClient", server)
 
-  "example mocked-server" must {
+  "example server" must {
 
     "reply with with modified message" in {
 
