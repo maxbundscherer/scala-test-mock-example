@@ -16,7 +16,7 @@ Author: Maximilian Bundscherer (https://bundscherer-online.de)
     
 ## Used technologies
 - Scala: *programming language*
-- ScalaTest: *testing project*
+- ScalaTest: *testing project* ('overwritten' by ScalaMock)
 - **ScalaMock**: *mocking framework*
 - sbt-scoverage: *generate test coverage report(s)*
 
