@@ -12,8 +12,13 @@ Author: Maximilian Bundscherer (https://bundscherer-online.de)
 - **Normal** and **mocked server** test included
     - normal-test - see ``src/test/scala/com/mb/scalamockexample/ExampleTest``
     - test with mocked server - see ``src/test/scala/com/mb/scalamockexample/ExampleMockedTest``
+- Auto-generate **coverage report(s)** (sbt-scoverage)
     
-    
+## Used technologies
+- Scala: *programming language*
+- ScalaTest: *testing project*
+- sbt-scoverage: *generate test coverage report(s)*
+
 ## Let's get started
 1. See requirements!
 2. Run tests ``sbt clean coverage test``
