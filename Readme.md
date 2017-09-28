@@ -6,6 +6,8 @@
 
 Author: Maximilian Bundscherer (https://bundscherer-online.de)
 
+Test-Coverage: 100.00% **;)**
+
 ## Overview / Features
 - Simple example server and client included (see ``src/main/scala/com/mb/scalamockexample/*``)
 - Server and client communicate over simple messages
